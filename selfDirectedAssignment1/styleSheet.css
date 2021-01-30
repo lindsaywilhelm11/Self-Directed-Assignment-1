@@ -1,0 +1,314 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #d5d5d5;
+}
+
+/***** Header *****/
+
+.mainHeader {
+    font-size: 50px;
+    color: #00303f;
+    margin: 0;
+    position: relative;
+    left: 170px;
+}
+
+.subHeader {
+    font-size: 25px;
+    color: #707070;
+    position: relative;
+    left: 170px;
+}
+
+.container {
+    width: 1100px;
+}
+
+/***** City Skyline *****/
+
+#city-skyline {
+    height: 260px;
+    width: 350px;
+}
+
+.boxOne {
+    position: relative;
+    bottom: 250px;
+    left: 135px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.boxOneText {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.boxOne figure {
+    background: #00303f;
+    display: block;
+}
+.boxOne figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    display: block;
+}
+.boxOne figure:hover img {
+	opacity: .5;
+}
+
+/***** CN Tower *****/
+
+#cn-tower {
+    height: 500px;
+    width: 350px;
+}
+
+.boxTwo {
+    position: relative;
+    left: 70px;
+    bottom: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.boxTwoText {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.boxTwo figure {
+    background: #00303f;
+    display: block;
+}
+.boxTwo figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    display: block;
+}
+.boxTwo figure:hover img {
+	opacity: .5;
+}
+
+/***** New City Hall *****/
+
+#new-city-hall {
+    height: 500px;
+    width: 350px;
+}
+
+.boxThree {
+    position: relative;
+    left: 135px;
+    bottom: 270px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.boxThreeText {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.boxThree figure {
+    background: #00303f;
+    display: block;
+}
+.boxThree figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    display: block;
+}
+.boxThree figure:hover img {
+	opacity: .5;
+}
+
+/***** Old City Hall *****/
+
+#old-city-hall {
+    height: 500px;
+    width: 350px;
+}
+
+.boxFour {
+    position: relative;
+    bottom: 270px;
+    left: 438px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.boxFourText {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.boxFour figure {
+    background: #00303f;
+    display: block;
+}
+.boxFour figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    display: block;
+}
+.boxFour figure:hover img {
+	opacity: .5;
+}
+
+/***** Rogers Center *****/
+
+#rogers-center {
+    height: 260px;
+    width: 350px;
+}
+
+.boxFive {
+    position: relative;
+    bottom: 1084px;
+    left: 872px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.boxFiveText {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.boxFive figure {
+    background: #00303f;
+    display: block;
+}
+.boxFive figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    display: block;
+}
+.boxFive figure:hover img {
+	opacity: .5;
+}
+
+/***** Royal Ontario Museum *****/
+
+#rom {
+    height: 260px;
+    max-width: 350px;
+}
+
+.boxSix {
+    position: relative;
+    bottom: 567px;
+    left: 70px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.boxSixText {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.boxSix figure {
+    background: #00303f;
+    display: block;
+}
+.boxSix figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    display: block;
+}
+.boxSix figure:hover img {
+	opacity: .5;
+}
+
+/***** Footer *****/
+
+.social-icons {
+    position: relative;
+    left: 155px;
+    bottom: 580px;
+}
+
+a { 
+    color: #0a043c; 
+}
+a:hover { 
+    color: #6f9eaf; 
+}
+
+#facebook {
+    line-height: 2.2em;
+    width: 2.1em;
+    height: 2.1em;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  #facebook:hover {
+      transform: translateY(-4px);
+      transition:0.3s;
+  }
+
+  #instagram {
+    line-height: 2.2em;
+    width: 2.1em;
+    height: 2.1em;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  #instagram:hover {
+      transform: translateY(-4px);
+      transition:0.3s;
+  }
+
+  #youtube {
+    line-height: 2.2em;
+    width: 2.1em;
+    height: 2.1em;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  #youtube:hover {
+      transform: translateY(-4px);
+      transition:0.3s;
+  }
+
+  #twitter {
+    line-height: 2.2em;
+    width: 2.1em;
+    height: 2.1em;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  #twitter:hover {
+      transform: translateY(-4px);
+      transition:0.3s;
+  }
